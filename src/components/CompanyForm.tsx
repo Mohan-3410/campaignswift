@@ -30,7 +30,7 @@ export function CompanyForm() {
           <label className="absolute -top-2.5 left-3 bg-white px-1 group-focus-within:text-primary mb-2 block text-sm text-gray-600">Company size</label>
           <Select>
             <SelectTrigger>
-              <SelectValue placeholder="Choose the size of your company" className=" text-gray-400"/>
+              <SelectValue placeholder="Choose the size of your company" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="1-10">1-10 employees</SelectItem>
